@@ -16,7 +16,7 @@ app.use(express.json());
 app.use(cors())
 
 //# XXXXX >
-app.use('/api', require('..//routes/test.routes'));
+app.use('/api', require('../routes/test.routes'));
 
 //# XXXXX >
 module.exports = { app, port };
