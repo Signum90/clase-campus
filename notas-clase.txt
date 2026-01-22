@@ -48,3 +48,6 @@ NOTAS CLASE CAMPUS
     > UTILS
     > crear el token blacklist
     > Modificar passport para validar si esta en el black list
+    > Agregar ruta
+    > Agregar controller
+    > realizar prueba en postman
