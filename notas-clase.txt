@@ -38,4 +38,13 @@ NOTAS CLASE CAMPUS
   > Crear Config del Passport
     > Inicializar el passport en el server.js
   > Implementar una ruta con passport
-      
+  > Ejercicio con rutas DASHBOARD
+    > Crear rutas DASHBOARD
+    > Agregar endpoint DASHBOARD
+    > Crear controller DASHBOARD
+    > Crear Middleware Authorize
+    > Ajustar ruta con passport + authorize middleware
+  > Agregar logout
+    > UTILS
+    > crear el token blacklist
+    > Modificar passport para validar si esta en el black list

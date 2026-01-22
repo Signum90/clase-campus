@@ -26,5 +26,9 @@ app.use('/api', require('../routes/test.routes'));
 app.use('/api', require('../routes/auth.routes'));
 //# R: productos >
 app.use('/api/productos', require('../routes/products.routes'));
+//# R: Dashboard >
+app.use('/api', require('../routes/dashboard.routes'));
+//# R: Logout >
+app.use('/api', require('../routes/logout.routes'));
 //# XXXXX >
 module.exports = { app, port };
