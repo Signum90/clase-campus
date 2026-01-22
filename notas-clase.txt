@@ -1,0 +1,41 @@
+NOTAS CLASE CAMPUS
+----------------------------------------------------
+-  Clase práctica de creación de endpoints  (ExpressJS) y Autenticación con JWT mediante Passport.JS
+-------------------------------------------------------
+1 - Introducción
+  > Diapositivas
+    > Node
+    > Express
+    > Passport
+2 - Inicio del proyecto
+  > npm i
+  > instalar dependencias
+    > express 
+    > passport 
+    > passport-jwt 
+    > jsonwebtoken 
+    > bcryptjs
+    > uuid
+    > dotenv
+  3 - Estructura de nuestro proyecto
+  > Crear carpetas
+  > TIPS 1: Organización de un proyecto
+  4 - Inicio a programar
+  > Crear server express
+  > crear rutas testing
+  > TIPS 2: Comentarios en nuestro código
+  > abrir postman, testear rutas
+  > Crear modelo usuarios
+  > Crear controlador: Auth
+    > Crear un usuario incialmente / funcion register
+    > loguera usuario / funcion login
+  > Crear ruta sin implementar passport
+    > crear un enpoint en productos, validar manual
+    > TIPS 3: JWT es el formato del carnet
+              Passport es el sistema de control de acceso
+            # Sin pass: se valida a mano en cada ruta
+            # Con pass: la autenticación es centralizada reutilizable y escalable
+  > Crear Config del Passport
+    > Inicializar el passport en el server.js
+  > Implementar una ruta con passport
+      

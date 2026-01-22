@@ -16,11 +16,10 @@ router.get('/test', (req, res) => {
 
 //# XXXXX >
 router.post('/testpost', (req, res) => {
-  console.log('/testpost');
-  
+  console.log('/testpost');  
   const { body } = req;
   if (!body || !body.name) {
-    res.status(404).json({
+    return res.status(404).json({
       message: 'Envia los datos',
     })
   }
